@@ -10,7 +10,7 @@ function saveName(text) {
   localStorage.setItem(USER_LS, text);
 }
 
-function handleSubmit(Event) {
+function handleSubmit(event) {
   console.log("handlesubmit!");
   event.preventDefault();
   const currentValue = input.value;
