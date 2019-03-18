@@ -2,11 +2,20 @@ body {
   background-color: peru;
 }
 
-.js-clock h1 {
+body {
   color: #130f40;
   font-size: 100px;
 }
 
 .clicked {
   color: red;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
 }
