@@ -1,0 +1,50 @@
+body {
+  background-color: #3498db;
+  font-size: 40px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 200px;
+}
+
+.grid-item {
+  margin: 0;
+}
+
+.grid-welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.js-name {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-welcome .js-clock {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-welcome h1 {
+  margin-bottom: 30px;
+}
+
+.grid-welcome .grid-name {
+  display: flex;
+  justify-content: center;
+}
+
+.name-input {
+  display: none;
+}
+
+.show {
+  display: block;
+}
