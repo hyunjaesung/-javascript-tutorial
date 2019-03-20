@@ -8,13 +8,11 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="header__weather"></header>
-
     <div class="grid">
       <div class="grid-item"></div>
       <div class="grid-item"></div>
       <div class="grid-item"></div>
-      <div class="grid-item"></div>
+      <div class="grid-item"><span class="js-weather"></span></div>
       <div class="grid-item"></div>
       <div class="grid-item grid-welcome">
         <div class="js-clock">
@@ -31,13 +29,20 @@
       </div>
       <div class="grid-item"></div>
       <div class="grid-item"></div>
+      <div class="grid-item js-todo grid-todo">
+        <form class="todo-form">
+          <input type="text" placeholder="Write Your Todo" />
+        </form>
+        <ul></ul>
+      </div>
       <div class="grid-item"></div>
-      <div class="grid-item"><ul></ul></div>
       <div class="grid-item"></div>
       <div class="grid-item"></div>
     </div>
 
     <script src="clock.js"></script>
     <script src="name.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
   </body>
 </html>
