@@ -36,6 +36,22 @@ body {
   font-size: 0.6em;
   cursor: pointer;
   color: #ecf0f1;
+  text-align: center;
+}
+
+.js-form {
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.js-form input {
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  font-size: 0.6em;
+  cursor: pointer;
+  color: #ecf0f1;
+  text-align: center;
 }
 
 .js-toDoForm input :focus {
