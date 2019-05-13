@@ -3,8 +3,117 @@ body {
 }
 
 body {
-  color: #74b9ff;
+  color: #ecf0f1;
   font-size: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.js-weather {
+  text-align: right;
+  font-size: 0.5em;
+}
+
+.js-clock {
+  text-align: center;
+  font-size: 1em;
+}
+
+.js-greetings {
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.js-toDoForm {
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.js-toDoForm input {
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  font-size: 0.6em;
+  cursor: pointer;
+  color: #ecf0f1;
+}
+
+.js-toDoForm input :focus {
+  outline: none;
+}
+
+input ::placeholder {
+  color: #ecf0f1;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+*:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #ecf0f1;
+  font-size: 1.2em;
+  text-align: center;
+}
+input::-moz-placeholder {
+  color: #ecf0f1;
+  font-size: 1.2em;
+  text-align: center;
+}
+input:-ms-input-placeholder {
+  color: #ecf0f1;
+  font-size: 1.2em;
+  text-align: center;
+}
+input:-moz-placeholder {
+  color: #ecf0f1;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.js-toDoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.js-toDoList li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5em;
+}
+
+.js-toDoList button {
+  background: none;
+  border: 0;
+  color: red;
+  /* cursor: default; */
+  cursor: pointer;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-appearance: button; /* for input */
+  -webkit-user-select: none; /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin: 5px;
+}
+
+.coverBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+  z-index: -1;
 }
 
 .clicked {
@@ -35,6 +144,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: -3;
   animation: fadeIn 0.5s linear;
 }

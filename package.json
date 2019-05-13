@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "scripts": {
+    "deploy": "gh-pages"
+  },
+  "homepage": "https://hyunjaesung.github.id/vanilajs_practice-javascript"
+}
